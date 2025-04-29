@@ -1,0 +1,41 @@
+# Claude Memory File
+
+Este arquivo serve como memória persistente para conversas com Claude. Quando conectado a um repositório GitHub, Claude pode acessar estas informações em diferentes sessões de conversa.
+
+## Informações de Contexto
+
+- **Data de criação:** 29 de abril de 2025
+- **Propósito:** Estabelecer memória persistente entre conversas com Claude
+
+## Como Funciona
+
+1. Este arquivo é armazenado no seu repositório GitHub
+2. Quando você conecta o repositório a uma conversa com Claude, o conteúdo deste arquivo fica acessível
+3. Claude pode ler e referenciar estas informações para manter contexto
+
+## Dados Personalizados
+
+Você pode adicionar informações abaixo que deseja que sejam lembradas em todas as conversas:
+
+### Preferências
+
+```
+{
+  "nome": "Seu Nome",
+  "temas_interesse": ["tema1", "tema2", "tema3"],
+  "estilo_comunicacao": "preferido",
+  "projetos_atuais": ["projeto1", "projeto2"]
+}
+```
+
+### Histórico de Projetos
+
+Adicione aqui informações sobre projetos que estamos trabalhando juntos.
+
+### Instruções Permanentes
+
+Adicione aqui diretrizes ou instruções que devem ser aplicadas em todas as conversas.
+
+---
+
+**Nota:** Para verificar se Claude está lendo este arquivo em uma nova conversa, você pode perguntar: "Qual é o conteúdo do arquivo de memória?"
