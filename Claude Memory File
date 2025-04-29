@@ -1,11 +1,27 @@
-# Claude Memory File
+# Arquivo Unificado de Memória - Wallan
 
-Este arquivo serve como memória persistente para conversas com Claude. Quando conectado a um repositório GitHub, Claude pode acessar estas informações em diferentes sessões de conversa.
+Este arquivo serve como memória persistente para conversas entre Claude e Wallan. Quando conectado a um repositório GitHub, Claude pode acessar estas informações em diferentes sessões de conversa.
 
-## Informações de Contexto
+## Informações Pessoais
 
-- **Data de criação:** 29 de abril de 2025
-- **Propósito:** Estabelecer memória persistente entre conversas com Claude
+- Nome: Wallan
+- Profissão: Técnico de Som
+- Função: Líder de Comunicação em uma igreja pequena
+
+## Áreas de Interesse/Trabalho
+
+- Técnicas de sonorização
+- Equipamentos de áudio
+- Liderança em comunicação
+- Tecnologias para igrejas
+
+## Dados da Igreja
+
+- Nome da igreja: *A ser preenchido*
+- Tamanho aproximado: Igreja pequena
+- Equipamentos: *A ser preenchido*
+- Necessidades específicas: *A ser preenchido*
+- Equipe de comunicação: *A ser preenchido*
 
 ## Como Funciona
 
@@ -13,29 +29,34 @@ Este arquivo serve como memória persistente para conversas com Claude. Quando c
 2. Quando você conecta o repositório a uma conversa com Claude, o conteúdo deste arquivo fica acessível
 3. Claude pode ler e referenciar estas informações para manter contexto
 
+## Projetos e Necessidades
+
+*Esta seção será atualizada conforme novos projetos ou necessidades surgirem durante nossas conversas.*
+
+## Preferências
+
+- Comunicação: evitar o uso de texto em negrito
+- *Esta seção será atualizada conforme suas preferências forem identificadas durante nossas conversas.*
+
+## Histórico de Conversas Importantes
+
+*Aqui serão registrados tópicos importantes discutidos em nossas conversas que possam ser úteis para referência futura.*
+
 ## Dados Personalizados
 
-Você pode adicionar informações abaixo que deseja que sejam lembradas em todas as conversas:
-
-### Preferências
+Você pode adicionar informações adicionais que deseja que sejam lembradas em todas as conversas:
 
 ```
 {
-  "nome": "Seu Nome",
-  "temas_interesse": ["tema1", "tema2", "tema3"],
-  "estilo_comunicacao": "preferido",
-  "projetos_atuais": ["projeto1", "projeto2"]
+  "nome": "Wallan",
+  "temas_interesse": ["sonorização", "equipamentos de áudio", "comunicação em igreja"],
+  "estilo_comunicacao": "sem negrito",
+  "projetos_atuais": []
 }
 ```
 
-### Histórico de Projetos
-
-Adicione aqui informações sobre projetos que estamos trabalhando juntos.
-
-### Instruções Permanentes
-
-Adicione aqui diretrizes ou instruções que devem ser aplicadas em todas as conversas.
-
 ---
 
-**Nota:** Para verificar se Claude está lendo este arquivo em uma nova conversa, você pode perguntar: "Qual é o conteúdo do arquivo de memória?"
+Nota: Para verificar se Claude está lendo este arquivo em uma nova conversa, você pode perguntar: "Qual é o conteúdo do arquivo de memória?"
+
+Última atualização: 29 de abril de 2025
